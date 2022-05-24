@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/login_background"
     tools:context=".SignUp">
     <ImageView
         android:id="@+id/logo"
@@ -43,17 +44,31 @@
         android:layout_height="48dp"
         android:layout_below="@+id/edit_email"
         android:layout_marginTop="10dp"
+        android:inputType="textPassword"
         android:background="@drawable/edt_background"
         android:hint="Enter password"
         android:layout_marginLeft="20dp"
         android:paddingLeft="12dp"
         android:layout_marginRight="20dp"
         />
+
+    <EditText
+        android:id="@+id/confirm_pwd"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_below="@+id/edit_pwd"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/edt_background"
+        android:hint="Confirm password"
+        android:inputType="textPassword"
+        android:paddingLeft="12dp" />
     <Button
         android:id="@+id/btnsignup"
         android:layout_width="160dp"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/edit_pwd"
+        android:layout_below="@+id/confirm_pwd"
         android:text="Signup"
         android:textColor="@color/white"
         android:textSize="22sp"

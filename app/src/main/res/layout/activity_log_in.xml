@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/login_background"
     tools:context=".LogIn">
     <ImageView
         android:id="@+id/logo"
@@ -29,36 +30,37 @@
         android:id="@+id/edit_pwd"
         android:layout_width="match_parent"
         android:layout_height="48dp"
-        android:layout_below="@+id/edit_email"
         android:layout_marginTop="10dp"
+        android:layout_below="@+id/edit_email"
         android:background="@drawable/edt_background"
-        android:hint="Enter password"
+        android:hint="Enter Password"
         android:layout_marginLeft="20dp"
         android:paddingLeft="12dp"
+        android:inputType="textPassword"
         android:layout_marginRight="20dp"
         />
+
     <Button
         android:id="@+id/btnlogin"
         android:layout_width="160dp"
         android:layout_height="wrap_content"
         android:layout_below="@+id/edit_pwd"
-        android:text="Login"
-        android:textColor="@color/white"
-        android:textSize="22sp"
-        android:background = "@drawable/edt_btn"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="13dp"
-        />
+        android:background="@drawable/edt_btn"
+        android:text="Login"
+        android:textColor="@color/white"
+        android:textSize="22sp" />
+
     <Button
         android:id="@+id/btnsignup"
         android:layout_width="160dp"
         android:layout_height="wrap_content"
         android:layout_below="@+id/btnlogin"
-        android:text="Signup"
-        android:textColor="@color/white"
-        android:textSize="22sp"
-        android:background = "@drawable/edt_btn"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="13dp"
-        />
+        android:background="@drawable/edt_btn"
+        android:text="Signup"
+        android:textColor="@color/white"
+        android:textSize="22sp" />
 </RelativeLayout>

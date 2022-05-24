@@ -5,7 +5,9 @@
       <map>
         <entry key="..\:/Users/HP/AndroidStudioProjects/Chatify/app/src/main/res/drawable/edt_background.xml" value="0.151" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/Chatify/app/src/main/res/drawable/edt_btn.xml" value="0.151" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/Chatify/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1245" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/Chatify/app/src/main/res/drawable/messagebox.xml" value="0.1245" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/Chatify/app/src/main/res/drawable/receivenew.xml" value="0.1245" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/Chatify/app/src/main/res/layout/activity_chat.xml" value="0.25" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/Chatify/app/src/main/res/layout/activity_chat_screen.xml" value="0.25" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/Chatify/app/src/main/res/layout/activity_log_in.xml" value="0.25" />

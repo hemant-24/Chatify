@@ -1,5 +1,4 @@
 package com.example.chatify
-
 import android.content.Context
 import android.view.LayoutInflater
 import android.view.View
@@ -8,7 +7,6 @@ import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.google.firebase.auth.FirebaseAuth
 import java.util.ArrayList
-
 class messageAdapter(val context : Context, val messageList : ArrayList<message>) : RecyclerView.Adapter<RecyclerView.ViewHolder>() {
     val item_receive = 1
     val item_sent = 2
@@ -32,7 +30,6 @@ class messageAdapter(val context : Context, val messageList : ArrayList<message>
             holder.receivedMsg.text = currMsg.message
         }
     }
-
     override fun getItemViewType(position: Int): Int {
         val currmsg = messageList[position]
         if(FirebaseAuth.getInstance().currentUser?.uid.equals(currmsg.idSender)){

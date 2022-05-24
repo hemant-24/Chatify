@@ -9,4 +9,5 @@
     <color name="white">#FFFFFFFF</color>
     <color name="blue">#004de6</color>
     <color name="orange">#e64d00</color>
+    <color name="neon">#99FFFF</color>
 </resources>

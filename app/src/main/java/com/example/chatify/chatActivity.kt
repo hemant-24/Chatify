@@ -39,7 +39,9 @@ class chatActivity : AppCompatActivity() {
         messageadapter = messageAdapter(this,msgList)
         chatRecyclerView.layoutManager = LinearLayoutManager(this)
         chatRecyclerView.adapter = messageadapter
-        //remember show chats in REcycler view
+
+        //remember to show chats in REcycler view
+
         mDBref.child("chats").child(senderRoom!!).child("messages")
             .addValueEventListener(object : ValueEventListener{
                 override fun onDataChange(snapshot: DataSnapshot) {
